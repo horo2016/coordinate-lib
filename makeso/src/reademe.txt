@@ -1,0 +1,4 @@
+在当前路径下执行
+gcc -fPIC -shared -o libcoorsys.so coordinate_sysddd.c cJSON.c
+
+将生成的libso 替换原有的。
